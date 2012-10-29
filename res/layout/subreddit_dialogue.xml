@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/subreddit_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:inputType="textNoSuggestions"
+        android:layout_toRightOf="@+id/subreddit_label"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/subreddit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subreddit_name"
+        android:layout_centerHorizontal="true"
+        android:text="@string/submit" />
+
+    <TextView
+        android:id="@+id/subreddit_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/subreddit_name"
+        android:layout_alignBottom="@+id/subreddit_name"
+        android:layout_alignParentLeft="true"
+        android:text="@string/subreddit"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

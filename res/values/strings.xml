@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="submit">submit</string>
+    <string name="app_name">NativeReddit</string>
+    <string name="up_vote">up vote</string>
+    <string name="down_vote">down vote</string>
+    <string name="story_thumb">story thumbnail</string>
+    <string name="subreddit">subreddit</string>
+    <string name="my_info_title">my user info</string>
+
+</resources>
